@@ -82,7 +82,7 @@ O novo .exe será gerado em dist/.
 
 ---
 
-##🧭 Em Desenvolvimento
+## 🧭 Em Desenvolvimento
 
 O projeto está em fase de evolução.
 Futuras atualizações podem incluir:
@@ -100,14 +100,14 @@ Instalação como serviço em segundo plano
 
 ---
 
-##💡 Objetivo
+## 💡 Objetivo
 
 Criar uma ferramenta visual, leve e multiplataforma para monitorar o desempenho do sistema em tempo real — sem depender de softwares pesados ou complexos.
 
 
 ---
 
-##👨‍💻 Autor
+## 👨‍💻 Autor
 
 Douglas Alves
 - 📅 Projeto em desenvolvimento — melhorias e contribuições são bem-vindas!
@@ -115,7 +115,7 @@ Douglas Alves
 
 ---
 
-##📜 Licença
+## 📜 Licença
 
 - Este projeto é licenciado sob a Licença MIT — você pode usar, modificar e distribuir livremente, desde que mantenha os créditos originais.
 
@@ -147,4 +147,4 @@ THE SOFTWARE.
 
 ---
 
-##✨ Status do Projeto: Em desenvolvimento — novas versões trarão mais recursos e melhorias visuais.
+## ✨ Status do Projeto: Em desenvolvimento — novas versões trarão mais recursos e melhorias visuais.
