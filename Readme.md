@@ -59,7 +59,7 @@ monitor-sistema/
 │ └── index.html
 ├── icon.ico
 └── dist/
-└── Monitor do Sistema.exe
+  └── Monitor do Sistema.exe
 ```
 
 ---
