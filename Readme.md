@@ -1,46 +1,132 @@
 # 🖥️ Monitor do Sistema
 
-O **Monitor do Sistema** é uma aplicação leve e interativa para monitorar **uso de CPU, memória, disco e rede** em tempo real, diretamente pelo navegador.  
-Desenvolvido em **Python** com **Flask** e **Chart.js**, o projeto tem como objetivo oferecer uma visão simples, visual e intuitiva do desempenho do computador.
+O **Monitor do Sistema** é um aplicativo leve e interativo desenvolvido em **Python + Flask**, que exibe métricas em tempo real de **CPU, memória, disco e rede** diretamente no navegador.  
+O projeto foi empacotado para **Windows (.exe)**, permitindo fácil execução sem depender de ambiente Python instalado.
 
 ---
 
 ## 🚀 Funcionalidades
 
-✅ **Painel web interativo**  
-Acompanhe as métricas em tempo real através de um gráfico dinâmico no navegador.
+✅ **Painel Web Interativo**
+- Interface simples e responsiva acessível em qualquer navegador.  
+- Gráficos dinâmicos e atualizados em tempo real.  
 
-✅ **Métricas monitoradas**
-- **CPU (%)** – Uso total do processador  
-- **Memória RAM (%)** – Percentual de memória em uso  
-- **Disco (%)** – Utilização do armazenamento  
-- **Rede (KB/s)** – Taxas de upload e download instantâneas  
+✅ **Métricas Monitoradas**
+- **CPU (%)** — Uso total do processador  
+- **Memória RAM (%)** — Utilização da memória do sistema  
+- **Disco (%)** — Espaço de armazenamento em uso  
+- **Rede (KB/s)** — Taxa de upload e download em tempo real  
 
-✅ **Atualização automática**
-Os gráficos são atualizados a cada segundo, sem precisar recarregar a página.
+✅ **Execução simplificada**
+- Basta abrir o arquivo `.exe` e o navegador será iniciado automaticamente na página do painel.
 
-✅ **Execução no Windows e Linux**
-O projeto é compatível com diferentes sistemas operacionais.  
-Pode ser executado via Python ou empacotado em um `.exe` (Windows) usando **PyInstaller**.
-
-✅ **Interface limpa e responsiva**
-Feita com **HTML + Chart.js**, adaptada para qualquer resolução de tela.
+✅ **Visual moderno**
+- Interface construída com **HTML5 + Chart.js** para gráficos suaves e responsivos.  
 
 ---
 
-## 🧠 Tecnologias utilizadas
+## 🪟 Versão Windows (.exe)
+
+A versão empacotada já está pronta para uso.
+
+### ▶️ Como usar
+
+1. Extraia o arquivo `.zip` do projeto (se aplicável).  
+2. Execute o arquivo:  
+    `Monitor do Sistema.exe`
+3. O navegador abrirá automaticamente em:
+    **http://localhost:5000**
+4. Acompanhe as métricas do seu sistema em tempo real!
+
+---
+
+## 🧠 Tecnologias Utilizadas
 
 - **Python 3**
-- **Flask** (para o servidor web)
-- **psutil** (para coletar métricas do sistema)
-- **Chart.js** (para os gráficos dinâmicos)
+- **Flask** — Servidor web leve e rápido  
+- **psutil** — Biblioteca para coleta de métricas do sistema  
+- **Chart.js** — Gráficos dinâmicos e responsivos no front-end  
 - **HTML5 / JavaScript**
 
 ---
 
-## 🧩 Como executar o projeto
+## 🧩 Estrutura do Projeto
 
-### 1️⃣ Clonar o repositório
-```bash
-git clone https://github.com/seuusuario/monitor-sistema.git
-cd monitor-sistema
+monitor-sistema/
+├── app.py
+├── templates/
+│ └── index.html
+├── icon.ico
+└── dist/
+└── Monitor do Sistema.exe
+
+
+---
+
+## 🧰 Para Desenvolvedores
+
+Caso queira modificar o código-fonte e gerar uma nova versão do executável:
+
+1. Instale as dependências:
+   ```bash
+   pip install flask psutil pyinstaller
+
+Faça suas alterações no app.py ou templates/index.html.
+
+Recompile o executável:
+
+    `pyinstaller --noconsole --onefile --name "Monitor do Sistema" --icon=icon.ico --add-data "templates;templates" app.py`
+
+O novo .exe será gerado em dist/.
+
+##🧭 Em Desenvolvimento
+
+O projeto está em fase de evolução.
+Futuras atualizações podem incluir:
+
+Histórico e exportação de métricas
+
+Alertas automáticos de alto consumo
+
+Tema escuro e opções de personalização
+
+Compatibilidade aprimorada com Linux e WSL
+
+Instalação como serviço em segundo plano
+
+##💡 Objetivo
+
+Criar uma ferramenta visual, leve e multiplataforma para monitorar o desempenho do sistema em tempo real — sem depender de softwares pesados ou complexos.
+
+##👨‍💻 Autor
+
+Douglas Alves
+- 📅 Projeto em desenvolvimento — melhorias e contribuições são bem-vindas!
+
+##📜 Licença
+
+-Este projeto é licenciado sob a Licença MIT — você pode usar, modificar e distribuir livremente, desde que mantenha os créditos originais.
+
+## MIT License
+
+Copyright (c) 2025 Douglas Alves
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+##✨ Status do Projeto: Em desenvolvimento — novas versões trarão mais recursos e melhorias visuais.
