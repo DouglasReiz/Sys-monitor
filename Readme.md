@@ -79,6 +79,9 @@ Recompile o executável:
 
 O novo .exe será gerado em dist/.
 
+
+---
+
 ##🧭 Em Desenvolvimento
 
 O projeto está em fase de evolução.
@@ -94,18 +97,30 @@ Compatibilidade aprimorada com Linux e WSL
 
 Instalação como serviço em segundo plano
 
+
+---
+
 ##💡 Objetivo
 
 Criar uma ferramenta visual, leve e multiplataforma para monitorar o desempenho do sistema em tempo real — sem depender de softwares pesados ou complexos.
+
+
+---
 
 ##👨‍💻 Autor
 
 Douglas Alves
 - 📅 Projeto em desenvolvimento — melhorias e contribuições são bem-vindas!
 
+
+---
+
 ##📜 Licença
 
--Este projeto é licenciado sob a Licença MIT — você pode usar, modificar e distribuir livremente, desde que mantenha os créditos originais.
+- Este projeto é licenciado sob a Licença MIT — você pode usar, modificar e distribuir livremente, desde que mantenha os créditos originais.
+
+
+---
 
 ## MIT License
 
@@ -128,5 +143,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
+---
 
 ##✨ Status do Projeto: Em desenvolvimento — novas versões trarão mais recursos e melhorias visuais.
