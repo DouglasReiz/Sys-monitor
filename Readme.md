@@ -52,6 +52,7 @@ A versão empacotada já está pronta para uso.
 
 ## 🧩 Estrutura do Projeto
 
+```
 monitor-sistema/
 ├── app.py
 ├── templates/
@@ -59,7 +60,7 @@ monitor-sistema/
 ├── icon.ico
 └── dist/
 └── Monitor do Sistema.exe
-
+```
 
 ---
 
